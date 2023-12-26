@@ -1,0 +1,540 @@
+/* ########################## PREDEFIN HTML ELEMENTS###################### */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+ul li{
+    list-style: none;
+}
+a{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+p,li{
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+}
+
+h1,h2,h3{
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+    font-weight: 500;
+}
+/* ##################///////################################################ */
+
+/* #################### utility predfine subject######################################### */
+
+.text-purple{
+    color: #f5862b;
+}
+.text-red{
+    color: rgb(184, 4, 4);
+
+}
+
+.text-light{
+    color: #f4f4f4;
+
+}
+.text-gray{
+    color: #555;
+}
+.f-heading{
+    color: white;
+}
+
+
+
+/* ####################### THIS IS CONTAINER BOX###################### */
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* ############################### BTN ######################### */
+
+.btn1{
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0.5em 0;
+    background-color: #f4f4f4;
+    border-radius: 30px;
+}
+
+.btn1:hover{
+    background-color: #555;
+}
+/* ############################### BTN ########################## */
+
+.header{
+    height: 95vh;
+    background: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/homebg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar a{
+    color: lightcyan;
+    padding: 10px;
+    
+   
+}
+   
+.navbar{
+    padding: 10px;   
+}
+ .logo{
+    float: left;
+    font-size: 2.5rem;
+}
+
+ .navbar .nav-items{
+    float: right;
+    margin-top: 10px;
+    text-transform: uppercase;
+    
+}
+.navbar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.navbar .nav-item{
+    display: inline-block   
+}
+.navbar a:hover{
+    border-bottom: 1px solid lightblue;
+    padding-bottom: 0.3rem;
+   
+}
+/* ########################### heading content ####################### */
+.heading-content{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+.heading-content h1{
+    text-transform: uppercase;
+    font-size: 700;
+    font-weight: 500;
+}
+.heading-content p{
+    text-transform: uppercase;
+    font-weight: 100;
+    
+}
+ /* ########################### heading content End #######################  */
+
+ /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!third heading!!!!!!!!!!!!!!!!!!!!! */
+.showcase{
+    background: #ddd;
+    padding: 30px 0;
+}
+
+.row{
+    height: 350px;
+    /* border: 2px solid green; */
+    background: #f4f4f4;
+    box-shadow: 0px 0px 25px 0px #555;
+}
+.row1{
+   margin-bottom: 70px;
+}
+.row1 .img-box, .row2 .text-box{
+    float: left;
+    width: 50%;
+}
+.row2 .img-box, .row1 .text-box{
+    float: right;
+    width: 50%;
+  
+}
+
+.row .img-box{
+    /* border: 2px solid red; */
+    height: 100%;
+}
+
+.row .text-box{
+    /* border: 2px solid rebeccapurple; */
+    padding: 20px;
+    margin-bottom: 10rem;
+   
+}
+
+.row .img-box img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.third-heading{
+   font-size: 20px;
+   font-weight: 700;
+   font-style: oblique;
+}
+
+.paragraph{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.btn-third{
+    margin: 30px 50px;
+    display: inline-block;
+    padding:0.5em 1.5em;
+    font-weight: 500;
+    background-color: red;
+    color: #f4f4f4;
+    border-radius: 20px;
+    text-transform: uppercase;   
+
+}
+
+.btn-third:hover{
+    background-color: aqua;
+}
+/* #################### LAST HEADING####################### */
+
+
+
+.last-heading{
+    padding: 5rem 0;
+    background: #ddd;
+    
+   
+}
+
+/* .box-wraper{
+    border: 2px solid red;  
+} */
+
+.box{
+width: 40rem;
+float: left;
+/* border: 2px solid black; */
+padding: 2rem;
+text-align: center;
+box-shadow: 0px 0px 35px 0px #555;
+}
+
+.box-wraper::after{
+    content:"";
+    display:  block;
+    clear: both;
+}
+
+.box-1, .box-3{
+background-color: #555
+
+}
+.box-2{
+    background-color: rgb(236, 171, 171);
+ 
+}
+/* ##################################### THIS IS ICON ############################## */
+
+.icons{
+    padding-bottom: 10px;
+}
+
+/* ################### THIS IS footer######################## */
+
+.footer{
+    /* border: 3px solid red ; */
+    background-color: #555;
+    padding: 0.5rem;
+    text-align: center;
+    color: #f4f4f4;
+    
+}
+
+.social-media i{
+    margin:1.5rem;
+    
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ABOUT PAGE STYLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.bg-dark{
+background-color: #555;
+}
+.about{
+    padding: 2rem 30rem;
+    font-size: medium;
+    font-weight: bold;
+    
+}
+
+.about-line::after{
+    content: '';
+    display: block;
+   border-bottom: 3px solid red ;
+    padding: 2px; 
+  
+}
+.para{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+/* ################### about wraper ############### */
+
+.about-wraper{
+    text-align: center;
+    
+}
+
+.about-wraper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.about-wraper li::before{
+    content: '\2713';
+    padding-right: 1rem;
+    font-weight: 900;
+
+}
+
+
+
+.about-wraper .first-check{
+    float: left;
+    width: 50%;
+   
+}
+.about-wraper .second-check{
+    float: right;
+    width: 50%;  
+}
+
+.counts{
+    /* border: 4px solid black; */
+    text-align: center;
+    padding-top: 20px;
+}
+
+.counts::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.count-item{
+    float: left;
+    /* border: 2px solid red; */
+   width: 22.7rem;
+   
+}
+
+span{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.count-para{
+    font-size: 2rem;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+/* ################### banner or btn ##################### */
+
+.about-banner{
+    background-color: #555;
+   padding: 10px;
+   padding-top: 20px;
+   margin: 1px;
+         
+}
+
+.about-banner::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.banner-left{
+    width: 60%;
+    float: left;
+    text-transform: uppercase; 
+    
+}
+
+.banner-right{
+    width: 30%;
+    float: right;
+    
+    
+    
+}
+.banner-btn{
+      text-align: center;
+      display: inline-block;
+      font-weight: 700;
+      font-size: 20px;
+      text-transform: uppercase;
+      border: 4px solid red;
+      padding: o.3em 2.5em;
+      background-color: red;
+      border-radius: 40px;     
+}
+
+.banner-btn:hover{
+    background-color: aqua;
+}
+
+/* ##################### contact form ###################### */
+
+.contact-form{
+    padding: 5rem 0;
+    font-size: 2rem;
+    background: #ddd;
+}
+
+.form-wrapper{
+    /* border: 2px solid red; */
+
+}
+
+.form-wrapper .company-address i{
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.form-wrapper .company-address h2{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.form-wrapper .company-address{
+    height: 700px;
+    /* border: 2px dotted aqua; */
+    width: 49%;
+    float: left;
+    background: #f4f4f4;
+}
+
+
+.form-wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.h2-text{
+    font-size: 23px;
+    font-weight: 700;
+    
+}
+
+.form-wrapper .company-address img{
+    width: 80%;
+    padding-top: 2rem;
+}
+
+.form-wrapper .company-address i{
+    padding: 2rem 1rem;
+    font-size: 3rem;
+}
+
+.form-wrapper .company-address p{
+    padding: 0rem 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.form-wrapper .company-address .email{
+    text-transform: lowercase;
+}
+
+/* ################ contact form ################ */
+
+.form-page h1::after{
+    content: '';
+    display: block;
+    border: 2px solid red;
+    width: 100%;
+}
+
+.form-wrapper .form-page h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.form-wrapper .form-page{
+    padding: 1rem;
+    height: 700px;
+    /* border: 2px dotted green; */
+    width: 49%;
+    float: right;
+    background: #f4f4f4 
+
+
+}
+   
+
+.form-wrapper label{
+    display:block;
+    text-transform: uppercase;
+}
+
+.form-wrapper input{
+    width: 100%;
+}
+
+.form-wrapper .form-group{
+    margin-bottom: 1.2rem;
+}
+
+.form-wrapper .form-group label::after{
+    content: "*";
+    font-size: 15px;
+}
+
+.form-wrapper .form-page textarea{
+    width: 100%;
+    height: 310px;
+    padding: 1rem;
+}
+
+.form-btn{
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 3em;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    background: #f5862b;
+    color: #f4f4f4;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.form-btn:hover{
+    background: #555;
+}
+
+.form-wrapper .form-page .con-p{
+    padding-bottom: 10px;
+}
+    
